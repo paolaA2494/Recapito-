@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Tabla de Integrantes</h1>
+      <h2>Miguel</h2>
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
