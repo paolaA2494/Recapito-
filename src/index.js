@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-import App from './pages/App';
+import Home from './pages/Home';
+import Register from './pages/Register';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +14,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <>
-    <App />
+    <Home />
   </>,
   document.getElementById('root')
 );

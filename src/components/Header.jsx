@@ -9,7 +9,8 @@ export default function Header (props) {
         <nav className="my-2 my-md-0 mr-md-3">
          {props.navBar.map((item, index) =>{
             return(
-            <a key={`item-navbar-${index}`} className="p-2 text-dark" href={item.url}>{item.name}</a>
+            <a key={`item-navbar-${index}`} 
+            className="p-2 text-dark" href={item.url}>{item.name}</a>
             )
 
          })}  

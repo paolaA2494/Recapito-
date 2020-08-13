@@ -1,15 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
-import Princing from '../components/Pricing';
-import Card from '../components/CardPrices';
-import Footer from '../components/Footer';
+import Login from '../components/Login';
 
-
-function App() {
-  return (
-    <div>
-      <Header 
-        companyName="Recapito"
+export default function Register () {
+   
+    return(
+    <>
+      <Header   companyName="Recapito"
         navBar= {[
          {
            name:"Facebook",
@@ -29,13 +26,8 @@ function App() {
         }
 
         ]}
-        button="Registro"
-      />
-      <Princing />
-      <Card />
-      <Footer />
-    </div>
-  );
+        button="Registro" />
+      <Login />
+    </>
+    )
 }
-
-export default App;
