@@ -26,7 +26,7 @@ export default function Register () {
         }
 
         ]}
-        button="Registro" />
+        button="Iniciar Sesión" />
       <Login />
     </>
     )
